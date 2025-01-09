@@ -1515,7 +1515,7 @@ a:hover {
 .site-name,
 #aside-content .author-info-name,
 #aside-content .author-info-description {
-  font-family: Novocento;
+  font-family: HarmonyOS_Sans;
 }
 .text-center {
   text-align: center;
@@ -6173,7 +6173,7 @@ blockquote.pullquote.right {
 
 /* 首页文章卡片 */
 #recent-posts > .recent-post-item{
-    background:rgba(255, 255, 255, 0);
+    background:rgba(255, 255, 255, 0)!important;
 }
 /* 首页侧栏卡片 */
 .card-widget{
@@ -6181,23 +6181,23 @@ blockquote.pullquote.right {
 }
 /* 文章页面正文背景 */
 div#post{
-  background: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0)!important;
 }
 /* 分页页面 */
 div#page{
-  background: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0)!important;
 }
 /* 归档页面 */
 div#archive{
-  background: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0)!important;
 }
 /* 标签页面 */
 div#tag{
-  background: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0)!important;
 }
 /* 分类页面 */
 div#category{
-  background: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0)!important;
 }
 
 
@@ -6230,29 +6230,29 @@ div#category{
 
 /* 文章页背景透明 */
 .layout_post>#post {
-	background: rgba(0, 0, 0, 0); /* 透明 */
+	background: rgba(0, 0, 0, 0)!important; /* 透明 */
 }
 
 /* 页脚透明 */
 #footer {
-	background: rgba(255, 255, 255, 0); /* 白色背景，0%透明度，即完全透明 */
+	background: rgba(255, 255, 255, 0)!important; /* 白色背景，0%透明度，即完全透明 */
 }
 
 
 /* 所有页面背景 */
 #aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
     /* 以下代表透明度为0.7 */
-    background: rgba(255,255,255,0);
+    background: rgba(255,255,255,0)!important;
 }
 
 /* 首页文章栏背景透明 */
 #recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
-    background: var(--light_bg_color)
+    background: var(--light_bg_color)!important;
 }
 
 /* 侧边栏透明 */
 #aside-content .card-widget {
-    background: var(--light_bg_color)
+    background: var(--light_bg_color)!important;
 }
 
 
