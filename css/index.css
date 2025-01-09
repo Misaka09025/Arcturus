@@ -6257,4 +6257,18 @@ div#category{
 
 
 
+.white-text {
+    color: #ffffff !important; /* #ffffff是白色的十六进制代码，!important用于提高该规则的优先级 */
+  }
+
+
+  .white-text,
+  .white-text h1,
+  .white-text h2,
+  .white-text h3,
+  .white-text h4,
+  .white-text h5,
+  .white-text h6 {
+      color: #ffffff !important; /* 确保文字颜色为白色 */
+  }
 @import 'https://cdn.jsdelivr.net/gh/username/repo/css/xxx.css';

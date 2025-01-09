@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'HarmonyOS_Sans';
-    font-display: swap;
-    src: url('/fonts/HarmonyOS_Sans_SC_Medium.ttf') format("truetype");  
-  }
+  font-family: 'HarmonyOS_Sans'!important;
+  font-display: swap!important;
+  src: url('/fonts/HarmonyOS_Sans_SC_Medium.ttf') format("truetype")!important;  
+}
