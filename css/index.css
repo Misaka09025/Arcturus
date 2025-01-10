@@ -1381,7 +1381,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: HarmonyOS_Sans;
+  font-family: Noto;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   scroll-behavior: smooth;
@@ -1509,13 +1509,6 @@ a {
 }
 a:hover {
   color: #49b1f5;
-}
-#site-title,
-#site-subtitle,
-.site-name,
-#aside-content .author-info-name,
-#aside-content .author-info-description {
-  font-family: HarmonyOS_Sans;
 }
 .text-center {
   text-align: center;
@@ -3439,7 +3432,7 @@ figure.highlight pre .javascript .function {
 }
 #page-header #scroll-down .scroll-down-effects {
   position: relative;
-  width: 100%;
+  width: 0%;
   color: var(--light-grey);
   font-size: 20px;
 }
@@ -3457,18 +3450,8 @@ figure.highlight pre .javascript .function {
   padding: 0 10px;
   width: 100%;
 }
-@media screen and (max-width: 768px) {
-  #page-header #page-site-info {
-    top: 140px;
-  }
-}
 #page-header.post-bg {
   height: 400px;
-}
-@media screen and (max-width: 768px) {
-  #page-header.post-bg {
-    height: 360px;
-  }
 }
 #page-header #post-info {
   position: absolute;
@@ -3482,11 +3465,6 @@ figure.highlight pre .javascript .function {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-@media screen and (max-width: 768px) {
-  #page-header #post-info {
-    padding: 0 15px;
-  }
-}
 #page-header.not-top-img {
   margin-bottom: 10px;
   height: 60px;
@@ -3497,8 +3475,8 @@ figure.highlight pre .javascript .function {
 }
 #page-header.not-top-img #nav {
   background: rgba(0,0,0,0);
-  -webkit-box-shadow: 0 5px 6px -5px rgba(133,133,133,0);
-  box-shadow: 0 5px 6px -5px rgba(133,133,133,0);
+  -webkit-box-shadow: 0 0px 0px 0px rgba(133,133,133,0);
+  box-shadow: 0 0px 0px 0px rgba(133,133,133,0);
 }
 #page-header.not-top-img #nav a,
 #page-header.not-top-img #nav span.site-page,
@@ -6221,7 +6199,7 @@ div#category{
   background:rgba(0, 0, 0, 0.0)!important;
 }
 [data-theme='dark'] div#category{
-  background:rgba(0, 0, 0, 0.0)!important;
+  background:rgba(0, 0, 0, 0.0  )!important;
 }
 
 
@@ -6247,12 +6225,12 @@ div#category{
 
 /* 首页文章栏背景透明 */
 #recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
-    background: var(--light_bg_color)!important;
+    background: rgba(255,255,255,0)!important;
 }
 
 /* 侧边栏透明 */
 #aside-content .card-widget {
-    background: var(--light_bg_color)!important;
+    background: rgba(255,255,255,0)!important;
 }
 
 
@@ -6271,4 +6249,3 @@ div#category{
   .white-text h6 {
       color: #ffffff !important; /* 确保文字颜色为白色 */
   }
-@import 'https://cdn.jsdelivr.net/gh/username/repo/css/xxx.css';
