@@ -1,0 +1,103 @@
+
+
+
+/* 首页文章卡片 */
+#recent-posts > .recent-post-item{
+    background:rgba(255, 255, 255, 0);
+}
+/* 首页侧栏卡片 */
+.card-widget{
+  background:rgba(255, 255, 255, 0);
+}
+/* 文章页面正文背景 */
+div#post{
+  background: rgba(255, 255, 255, 0);
+}
+/* 分页页面 */
+div#page{
+  background: rgba(255, 255, 255, 0);
+}
+/* 归档页面 */
+div#archive{
+  background: rgba(255, 255, 255, 0);
+}
+/* 标签页面 */
+div#tag{
+  background: rgba(255, 255, 255, 0);
+}
+/* 分类页面 */
+div#category{
+  background: rgba(255, 255, 255, 0);
+}
+
+
+/* 黑夜模式下*/
+[data-theme='dark'] #recent-posts > .recent-post-item{
+    background:rgba(0, 0, 0, 0);
+}
+[data-theme='dark'] .card-widget{
+  background:rgba(0, 0, 0, 0.0);
+}
+[data-theme='dark'] div#post{
+  background:rgba(0, 0, 0, 0.0);
+}
+[data-theme='dark'] div#page{
+  background:rgba(0, 0, 0, 0.0);
+}
+[data-theme='dark'] div#archive{
+  background:rgba(0, 0, 0, 0.0);
+}
+[data-theme='dark'] div#tag{
+  background:rgba(0, 0, 0, 0.0);
+}
+[data-theme='dark'] div#category{
+  background:rgba(0, 0, 0, 0.0  );
+}
+
+
+
+
+
+/* 文章页背景透明 */
+.layout_post>#post {
+	background: rgba(0, 0, 0, 0)!important; /* 透明 */
+}
+
+/* 页脚透明 */
+#footer {
+	background: rgba(255, 255, 255, 0)!important; /* 白色背景，0%透明度，即完全透明 */
+}
+
+
+/* 所有页面背景 */
+#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
+    /* 以下代表透明度为0.7 */
+    background: rgba(255,255,255,0)!important;
+}
+
+/* 首页文章栏背景透明 */
+#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
+    background: rgba(255,255,255,0)!important;
+}
+
+/* 侧边栏透明 */
+#aside-content .card-widget {
+    background: rgba(255,255,255,0)!important;
+}
+
+
+
+.white-text {
+    color: #ffffff !important; /* #ffffff是白色的十六进制代码，!important用于提高该规则的优先级 */
+  }
+
+
+  .white-text,
+  .white-text h1,
+  .white-text h2,
+  .white-text h3,
+  .white-text h4,
+  .white-text h5,
+  .white-text h6 {
+      color: #ffffff !important; /* 确保文字颜色为白色 */
+  }
