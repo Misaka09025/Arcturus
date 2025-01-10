@@ -51,7 +51,7 @@ div#category{
   background:rgba(0, 0, 0, 0.0)!important;
 }
 [data-theme='dark'] div#category{
-  background:rgba(0, 0, 0, 0.0)!important;
+  background:rgba(0, 0, 0, 0.0  )!important;
 }
 
 
@@ -77,12 +77,12 @@ div#category{
 
 /* 首页文章栏背景透明 */
 #recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
-    background: var(--light_bg_color)!important;
+    background: rgba(255,255,255,0)!important;
 }
 
 /* 侧边栏透明 */
 #aside-content .card-widget {
-    background: var(--light_bg_color)!important;
+    background: rgba(255,255,255,0)!important;
 }
 
 
