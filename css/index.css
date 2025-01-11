@@ -1381,7 +1381,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: Noto;
+  font-family: HarmonyOS_Sans_SC_Medium;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   scroll-behavior: smooth;
@@ -3838,8 +3838,8 @@ figure.highlight pre .javascript .function {
   text-align: center;
 }
 #pagination .page-number.current {
-  background: #00c4b6;
-  color: var(--white);
+  background: rgba(0,0,0,0) !important;
+  color: rgba(0,0,0,0) !important;
 }
 #pagination .full-width {
   width: 100% !important;
@@ -6151,55 +6151,55 @@ blockquote.pullquote.right {
 
 /* 首页文章卡片 */
 #recent-posts > .recent-post-item{
-    background:rgba(255, 255, 255, 0)!important;
+    background:rgba(255, 255, 255, 0);
 }
 /* 首页侧栏卡片 */
 .card-widget{
-  background:rgba(255, 255, 255, 0)!important;
+  background:rgba(255, 255, 255, 0);
 }
 /* 文章页面正文背景 */
 div#post{
-  background: rgba(255, 255, 255, 0)!important;
+  background: rgba(255, 255, 255, 0);
 }
 /* 分页页面 */
 div#page{
-  background: rgba(255, 255, 255, 0)!important;
+  background: rgba(255, 255, 255, 0);
 }
 /* 归档页面 */
 div#archive{
-  background: rgba(255, 255, 255, 0)!important;
+  background: rgba(255, 255, 255, 0);
 }
 /* 标签页面 */
 div#tag{
-  background: rgba(255, 255, 255, 0)!important;
+  background: rgba(255, 255, 255, 0);
 }
 /* 分类页面 */
 div#category{
-  background: rgba(255, 255, 255, 0)!important;
+  background: rgba(255, 255, 255, 0);
 }
 
 
 /* 黑夜模式下*/
 [data-theme='dark'] #recent-posts > .recent-post-item{
-    background:rgba(0, 0, 0, 0)!important;
+    background:rgba(0, 0, 0, 0);
 }
 [data-theme='dark'] .card-widget{
-  background:rgba(0, 0, 0, 0.0)!important;
+  background:rgba(0, 0, 0, 0.0);
 }
 [data-theme='dark'] div#post{
-  background:rgba(0, 0, 0, 0.0)!important;
+  background:rgba(0, 0, 0, 0.0);
 }
 [data-theme='dark'] div#page{
-  background:rgba(0, 0, 0, 0.0)!important;
+  background:rgba(0, 0, 0, 0.0);
 }
 [data-theme='dark'] div#archive{
-  background:rgba(0, 0, 0, 0.0)!important;
+  background:rgba(0, 0, 0, 0.0);
 }
 [data-theme='dark'] div#tag{
-  background:rgba(0, 0, 0, 0.0)!important;
+  background:rgba(0, 0, 0, 0.0);
 }
 [data-theme='dark'] div#category{
-  background:rgba(0, 0, 0, 0.0  )!important;
+  background:rgba(0, 0, 0, 0.0  );
 }
 
 
