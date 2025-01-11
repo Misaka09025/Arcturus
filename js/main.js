@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   let headerContentWidth, $nav
-  let mobileSidebarOpen = false
+  let mobileSidebarOpen = true
 
   const adjustMenu = init => {
     const getAllWidth = ele => Array.from(ele).reduce((width, i) => width + i.offsetWidth, 0)
