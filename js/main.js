@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
       btf.overflowPaddingR.remove()
       btf.animateOut(document.getElementById('menu-mask'), 'to_hide 0.5s')
       document.getElementById('sidebar-menus').classList.remove('open')
-      mobileSidebarOpen = false
+      mobileSidebarOpen = true
     }
   }
 
